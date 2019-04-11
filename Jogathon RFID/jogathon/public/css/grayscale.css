@@ -1,0 +1,591 @@
+/*!
+ * Start Bootstrap - Grayscale v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
+ */
+body {
+  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: black; }
+
+html {
+  width: 100%;
+  height: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  margin: 0 0 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 25px; }
+  @media (min-width: 768px) {
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 0 0 35px; } }
+
+a {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #42DCA3; }
+  a:focus, a:hover {
+    text-decoration: none;
+    color: #1d9b6c; }
+
+#mainNav {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: #060C18; }
+  #mainNav .navbar-toggler {
+    font-size: 14px;
+    padding: 11px;
+    color: white;
+    border: 1px solid white; }
+  #mainNav .navbar-brand {
+    font-weight: 700; }
+  #mainNav a {
+    color: white; }
+  #mainNav .navbar-nav .nav-item {
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out; }
+    #mainNav .navbar-nav .nav-item:hover {
+      color: fade(white, 80%);
+      outline: none;
+      background-color: transparent; }
+    #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+      outline: none;
+      background-color: transparent; }
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+      -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+      transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+      letter-spacing: 1px;
+      border-bottom: none;
+      background: transparent; }
+      #mainNav.navbar-shrink {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        background: #060C18; }
+      #mainNav .nav-link.active {
+        outline: none;
+        background-color: rgba(255, 255, 255, 0.3); }
+        #mainNav .nav-link.active:hover {
+          color: white; } }
+        
+
+.masthead {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 200px 0;
+  text-align: center;
+  color: white;
+  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .masthead .intro-body {
+    display: table-cell;
+    vertical-align: middle; }
+    .masthead .intro-body .brand-heading {
+      font-size: 50px; }
+    .masthead .intro-body .intro-text {
+      font-size: 18px; }
+
+  @media (min-width: 768px) {
+    .masthead {
+      height: 100%;
+      padding: 0; }
+      .masthead .intro-body .brand-heading {
+        font-size: 100px; }
+      .masthead .intro-body .intro-text {
+        font-size: 22px; } }
+
+.btn-circle {
+  font-size: 26px;
+  width: 55px;
+  height: 55px;
+  margin-top: 15px;
+  line-height: 45px;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+  color: white;
+  border: 2px solid white;
+  border-radius: 100% !important;
+  background: transparent; }
+  .btn-circle:focus, .btn-circle:hover {
+    color: white;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1); }
+
+.content-section {
+  padding-top: 150px;
+  padding-bottom: 150px; 
+  background-color: #060C18; }
+
+.download-section {
+  color: white;
+  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background-color: #060C18;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#map {
+  width: 100%;
+  height: 300px; }
+
+@media (min-width: 992px) {
+  .content-section {
+    padding-top: 200px;
+    padding-bottom: 200px; }
+  #map {
+    height: 350px; } }
+
+.btn {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  border-radius: 0; }
+
+.btn-default {
+  color: #42DCA3;
+  border: 1px solid #42DCA3;
+  background-color: transparent; }
+  .btn-default:focus, .btn-default:hover {
+    color: black;
+    border: 1px solid #42DCA3;
+    outline: none;
+    background-color: #42DCA3; }
+
+ul.banner-social-buttons {
+  margin-top: 0; }
+  @media (max-width: 1199px) {
+    ul.banner-social-buttons {
+      margin-top: 15px; } }
+  @media (max-width: 767px) {
+    ul.banner-social-buttons li {
+      display: block;
+      margin-bottom: 20px;
+      padding: 0; }
+      ul.banner-social-buttons li:last-child {
+        margin-bottom: 0; } }
+
+footer {
+  padding: 50px 0; }
+  footer p {
+    font-size: 14px;
+    margin: 0; }
+
+::-moz-selection {
+  background: #fcfcfc;
+  background: rgba(255, 255, 255, 0.2);
+  text-shadow: none; }
+
+::selection {
+  background: #fcfcfc;
+  background: rgba(255, 255, 255, 0.2);
+  text-shadow: none; }
+
+img::selection {
+  background: transparent; }
+
+img::-moz-selection {
+  background: transparent; }
+
+body {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
+
+
+/* ####################### MODIFY HERE ####################### */
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+.cancelbtn,.signupbtn {float:left;width: 50%;}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+    background-color: dimgray;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+    background-color: 
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1 /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: dimgray;
+    margin: 4% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+/* MODIFIED BY DANY */
+
+.dropdown-menu {
+    background-color: #192132;   
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-item {
+    background-color: #192132;
+    background-blend-mode: darken;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #064175;
+}
+
+
+
+
+/* FROM AKSELERAN */
+.search-filter-content {
+    background-color: #162947;
+    color: #f5f5f5
+}
+
+.search-filter-content .search-section {
+    padding: 30px 60px
+}
+
+.search-filter-content .search-section .form-group {
+    margin-bottom: 0
+}
+
+.search-filter-content .search-section .form-group label i {
+    margin: 0 15px
+}
+
+.search-filter-content .search-section .form-group .form-control {
+    display: inline-block;
+    width: 35%
+}
+
+.search-filter-content .category-sort-section {
+    padding: 30px 60px
+}
+
+.search-filter-content .category-sort-section .form-group {
+    margin-bottom: 0
+}
+
+.search-filter-content .category-sort-section .form-group label {
+    float: left;
+    margin-right: 15px;
+    margin-top: 2%;
+    margin-bottom: 2%
+}
+
+.search-filter-content .category-sort-section .form-group .form-control {
+    width: 55%
+}
+
+/* BREADCRUMB */
+
+
+
+.breadcrumbd {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #060C18;
+    border-radius: 4px
+}
+
+.breadcrumbd>li {
+    color: white;
+    display: inline-block;
+}
+
+.breadcrumbd>li+li:before {
+    padding: 0px;
+    color: #ccc;
+    content: "/\A0"
+}
+
+.breadcrumbd>.active {
+    color: #777
+}
+
+/* MY CAMPAIGN */
+.active-campaign .breadcrumbd {
+    text-align: center;
+    font-size: 18px;
+    width: 75%;
+    border-bottom: 1px solid #00bfff;
+    border-radius: 0;
+    padding: 0;
+    margin: 30px auto
+}
+
+.active-campaign .breadcrumbd .active {
+    background-color: #00bfff;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+
+.active-campaign .breadcrumbd li {
+    padding: 10px 15px;
+    border: 1px solid #00bfff;
+    font-weight: 700;
+    border-radius: 4px 4px 0 0;
+    margin: 0 5px 0 0;
+    border-bottom: none
+        
+}
+
+.active-campaign .breadcrumbd li a {
+    color: white
+}
+
+.active-campaign .breadcrumbd li+li:before {
+    content: ""
+}
+
+.active-campaign h2 {
+    text-align: center;
+    font-family: lato;
+    font-weight: 700;
+    margin: 45px 0 15px
+}
+
+.active-campaign .campaign-content {
+    padding: 0 10px
+}
+
+.active-campaign .campaign-box a:hover {
+    color: inherit
+}
+
+.active-campaign .campaign-box {
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #bfbfbf;
+    margin: 30px 2%;
+    min-height: 570px
+}
+
+.active-campaign .campaign-box:hover {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #268ed9;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #268ed9
+}
+
+.active-campaign .campaign-box {
+    color: #000
+}
+
+.active-campaign .campaign-cover-box {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0
+}
+
+.active-campaign .campaign-cover-box .fa {
+    font-size: 11em;
+    color: dimgray
+}
+
+.active-campaign .campaign-cover {
+    width: 100%;
+    height: 180px
+}
+
+.active-campaign .campaign-name {
+    text-align: center
+}
+
+.active-campaign .campaign-name a {
+    color: #000;
+    text-decoration: none
+}
+
+.border {
+    border-top: 1px solid skyblue;
+    width: 25%;
+    margin: 0 auto 10px
+}
+
+.active-campaign .fa {
+    font-size: 10em;
+    color: dimgray
+}
+
+.active-campaign .campaign-box a {
+    color: #000
+}
+
+.active-campaign .campaign-percentage {
+    position: absolute;
+    z-index: 1;
+    top: 37%;
+    left: 28%;
+    color: #262626;
+    white-space: nowrap;
+    text-align: center
+}
+
+.active-campaign .campaign-percentage b {
+    font-size: 20px
+}
+
+.active-campaign .campaign-logo {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    bottom: -20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%
+}
+
+.active-campaign .campaign-description {
+    color: #262626;
+    text-align: justify;
+    margin: 0 0 30px;
+    word-wrap: break-word;
+    min-height: 80px
+}
+
+
+
+.search-section {
+  padding-top: 30px;
+  padding-bottom: 150px; 
+  background-color: #060C18; }

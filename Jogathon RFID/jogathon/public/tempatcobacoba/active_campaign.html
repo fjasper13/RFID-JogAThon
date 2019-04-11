@@ -1,0 +1,85 @@
+<div class="row">
+                                            <div class="col-md-12">
+                                                <ol role="navigation" aria-label="breadcrumbs" class="breadcrumb">
+                                                    <li class="active"><span>Pinjaman Usaha</span></li>
+                                                    <li class=""><a href="/investasi/equity">Equity Crowdfunding</a></li>
+                                                </ol>
+                                            </div>
+                                        </div>
+
+
+
+
+
+
+<div class="col-md-12" id="searchform">
+                                <form action="/api/search" method="post">
+                                    <div class="container">
+                                        <label><b>Search</b></label>
+                                        <input type="text" placeholder="Input keyword" name="keyword" id="keyword">
+                                        <div class="clearfix">
+                                            <button type="submit" >Search</button>
+
+                                      </div>
+
+                                    </div>                               
+
+                                </form>
+                            </div>
+
+
+
+
+
+
+
+<div class="col-md-12">
+                        <div class="row">
+                            <div class="search-filter-content col-md-12">
+                                <div class="row">
+                                    <div class="search-section col-md-5">
+                                        <div class="form-group">
+                                            <label>
+                                                <!-- react-text: 146 -->Cari pinjaman :
+                                                <!-- /react-text --><i class="fa fa-search fa-1x"></i></label>
+                                            <input class="form-control" id="formControlSearch" name="searchCampaignList" placeholder="Masukan Kata Kunci">
+                                        </div>
+                                    </div>
+                                    <div class="category-sort-section col-md-4">
+                                        <div class="form-group">
+                                            <label for="formControlsSelect" class="col-form-label">Pilih Kategori</label>
+                                            <select name="categoryCampaignList" placeholder="select" id="formControlsSelect" class="form-control">
+                                                <option value="all">Semua</option>
+                                                <option value="1">Advertising</option>
+                                                <option value="2">Big Data/AI</option>
+                                                <option value="3">Design</option>
+                                                <option value="4">E-commerce</option>
+                                                <option value="5">Hiburan</option>
+                                                <option value="6">Fashion</option>
+                                                <option value="7">Finance/payment</option>
+                                                <option value="8">Kuliner</option>
+                                                <option value="9">Otomotif</option>
+                                                <option value="10">SaaS/PaaS</option>
+                                                <option value="11">Transportasi</option>
+                                                <option value="12">Travel/Leisure</option>
+                                                <option value="13">Lainnya</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="category-sort-section col-md-3">
+                                        <div class="form-group">
+                                            <label for="formControlsSelect" class="col-form-label">Urutkan</label>
+                                            <select name="sortCampaignList" placeholder="Urutkan" id="formControlsSelect" class="form-control">
+                                                <option value="campaigndate_desc">Kampanye Terbaru</option>
+                                                <option value="campaigndate_asc">Kampanye Terlama</option>
+                                                <option value="loan_desc">Pinjaman Terbesar</option>
+                                                <option value="loan_asc">Pinjaman Terkecil</option>
+                                                <option value="interest_desc">Bunga Terbesar</option>
+                                                <option value="interest_asc">Bunga Terkecil</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                    </div>

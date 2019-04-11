@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JOG A THON ITHB</title>
+</head>
+<body>
+
+<script>
+function validate(form) {
+
+    var valid = true;
+
+    if(!valid) {
+        alert('Please correct the errors in the form!');
+        return false;
+    }
+    else {
+        return confirm('Do you really want to submit the form?');
+    }
+}
+</script>
+
+<form method="post" action="/register" id="form" onsubmit="return validate(this);">
+  <p>Nama : <input type='text' id="name" name="name" required></p>
+  <p>Gender : 
+		<input type="radio" id="gender" name="gender" value="male" checked> Male
+		<input type="radio" id="gender" name="gender" value="female"> Female
+	</p>
+  <p>Donasi Per Lap : <input type='text' id="donate" name="donate" required></p>
+  <p>Kategori : 
+		<select id="category" name="category">
+			<option value="staff"> Staff / Dosen </option>
+			<option value="guru"> Guru </option>
+			<option value="mahasiswa"> Mahasiswa </option>
+		</select>
+	</p>
+  <input type="submit" value="Submit" id="submit">
+</form>
+ 
+ 
+</body>
+</html>

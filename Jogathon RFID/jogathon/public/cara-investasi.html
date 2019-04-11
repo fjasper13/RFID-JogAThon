@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Vesrowden - Investment and Crowdfunding</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+      
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+      
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+      
+    <nav class=" navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Vesrowden</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="investasi.html">Investasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="galang-dana.html">Galang Dana</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Hubungi Kami</a>
+            </li>
+            
+              
+            <li class="nav-item dropdown ">
+              <a class="dropdown nav-link" data-toggle="dropdown" href="#">Lainnya</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="cara-investasi.html">Cara Berinvestasi</a></li>
+                    <li><a class="dropdown-item" href="cara-galang-dana.html">Cara Galang Dana</a></li>                    
+                </ul>
+                
+            </li>
+            
+          </ul>
+            
+            
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link button" href="#" onclick="document.getElementById('login').style.display='block'">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link button" href="#" onclick="document.getElementById('signup').style.display='block'">Sign Up</a>
+                </li>
+            </ul>
+                
+        
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Login Modal -->
+      <div id="login" class="modal">
+
+      <!-- Login Content -->
+      <form class="modal-content animate" action="/action_page.php">
+        <div class="imgcontainer">
+            <span onclick="document.getElementById('login').style.display='none'" class="close" title="Close">&times;</span>
+            <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+          <label><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+
+          <label><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit">Login</button>
+          <input type="checkbox" checked="checked"> Remember me
+        </div>
+
+        <div class="container" style="background-color:dimgray">
+          <button type="button" onclick="document.getElementById('login').style.display='none'" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+      <!-- SignUp Modal -->
+      <div id="signup" class="modal">
+          <!-- SignUp Content -->
+          <form class="modal-content animate" action="/action_page.php">
+            <div class="container">
+                <span onclick="document.getElementById('signup').style.display='none'" class="close" title="Close">&times;</span>
+              <label><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+
+              <label><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+
+              <label><b>Repeat Password</b></label>
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+              <input type="checkbox" checked="checked"> Remember me
+              <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>            
+
+              <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('signup').style.display='none'" class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn" >Sign Up</button>
+                
+              </div>
+            </div>
+           
+          </form>
+      </div>
+      <script> 
+        // Get the modal
+        var modale = document.getElementById('signup');
+        var modal = document.getElementById('login');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modale) {
+                modale.style.display = "none";
+            }
+            else if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+      </script>
+
+    <!-- Intro Header -->
+    <header class="masthead">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h1 class="brand-heading" >CARA BERINVESTASI</h1>
+              <p class="intro-text">Temukan Peluang Berinvestasi, Baik Dalam Bentuk Pinjaman Maupun Penyertaan Modal, Pada Startup Dan UKM Dengan Mudah Dan Efisien</p>
+              <a href="#about" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>      
+ 
+
+    <!-- About Section -->
+    <section id="about" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div role="tablist" class="panel-group">
+            <div class ="panel panel-default">
+              <div class="panel-heading">
+                <h4 role="presentation" class="panel-title"><a role="tab" aria-expanded="true" aria-selected="true">1. Daftar Menjadi Anggota Akseleran</a></h4></div>
+                    <div role="tabpanel" class="panel-collapse collapse in" aria-hidden="false" style="">
+                        <div class="panel-body">
+                            <!-- react-text: 551 -->Proses pendaftaran mudah. Syaratnya anda harus berkewarganegaraan Indonesia, memiliki KTP, dan berusia lebih dari 17 tahun. Setelah anda mendaftar anda dapat mengakses situs Akseleran secara penuh, termasuk melihat penggalangan dana yang sedang berlangsung.
+                            <!-- /react-text -->
+                        </div>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="download-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Hubungi Tim kami</h2>
+            <p>Apabila anda mempunyai pertanyaan, keluhan, atau saran, silahkan menghubungi kami di alamat atau nomor telepon yang tertera di bawah ini.</p>
+              
+              <div class="row col-lg-10 mx-auto">
+                  <div class="col-lg-3 col-xs-2 mx-auto">
+                      <p><i class="fa fa-building-o fa-pw"></i> Alamat</p> 
+                  </div>
+                  <div class="col-lg-1 col-xs-2 mx-auto">
+                      <p>:</p>
+                  </div>
+                  <div class="col-lg-8 col-xs-3 text-justify">
+                      <p>Office 88 Tower A Lantai 35,<br> Jl. Casablanca Raya Kav. 88, Jakarta 12870, Indonesia</p>
+                  </div>
+                  <div class="clearfix"></div>
+                  
+                  <div class="col-lg-3 col-xs-2 mx-auto">
+                      <p><i class="fa fa-paper-plane-o fa-pw"></i> Email</p>
+                  </div>
+                  <div class="col-lg-1 col-xs-2 mx-auto">
+                      <p>:</p>
+                  </div>
+                  <div class="col-lg-8 col-xs-3 text-justify">
+                      <p><a href="/">team@vesrowden.com</a></p>
+                  </div>
+                  <div class="clearfix"></div>
+                  
+                  <div class="col-lg-3 col-xs-2 mx-auto">
+                      <p><i class="fa fa-phone fa-pw"></i> Telepon</p>
+                  </div>
+                  <div class="col-lg-1 col-xs-1 mx-auto">
+                      <p>:</p>
+                  </div>
+                  <div class="col-lg-8 col-xs-3 text-justify">
+                      <p>0818875755 / 0818767784 / 08174831519</p>
+                  </div>
+              </div>
+              
+            <ul class="list-inline banner-social-buttons">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/vesrowden" class="btn btn-default btn-lg">
+                  <i class="fa fa-twitter fa-fw"></i>
+                  <span class="network-name">Twitter</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/company-beta/13243706/" class="btn btn-default btn-lg">
+                  <i class="fa fa-linkedin-square fa-fw"></i>
+                  <span class="network-name">Linkedin</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/vesrowden" class="btn btn-default btn-lg">
+                  <i class="fa fa-facebook fa-fw"></i>
+                  <span class="network-name">Facebook</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer style="background-color: #060C18">
+      <div class="container text-center">
+        <p>Copyright &copy; Vesrowden 2017</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+    <script src="contekan/main.a4b79a7b.js"></script>
+    
+
+  </body>
+
+</html>
